@@ -1,0 +1,157 @@
+* {margin: 0px; padding 0px;}
+
+body {
+	background: black;
+}
+
+.canvas {
+	transform: scale(0.5);
+
+}
+#letterA {
+	float: left;
+
+	width: 346.4px;
+	height: 500px;
+
+	position:absolute;
+	top:400px;
+	left:0px;
+
+	border: 1px solid blue;
+}	
+
+#letterB {
+	float: left;
+
+	width: 346.4px;
+	height: 500px;
+
+	position:absolute;
+	top:400px;
+	left:519.6px;
+
+	border: 1px solid blue;
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 173.2px 100px 0;
+	border-color: transparent #007bff transparent transparent;
+	float: left;
+
+	position: relative;
+	top: 0px;
+
+	-webkit-transition: all ease 500ms;
+
+}
+
+.triangle-left-below {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 173.2px 100px 0;
+	border-color: transparent #007bff transparent transparent;
+	float: left;
+
+	position: relative;
+	top: -99px;
+
+	-webkit-transition: all ease 500ms;
+
+}
+
+.triangle-left-nofill {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 173.2px 100px 0;
+	border-color: transparent transparent transparent transparent;
+	float: left;
+
+	position: relative;
+	top: 0px;
+
+	-webkit-transition: all ease 500ms;
+
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	float: left;
+	border-width: 100px 0 100px 173.2px;
+	border-color: transparent transparent transparent #007bff;
+	
+	position: relative;
+	top: 0px;
+
+	-webkit-transition: all ease 500ms;
+}
+
+.triangle-right-below {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	float: left;
+	border-width: 100px 0 100px 173.2px;
+	border-color: transparent transparent transparent #007bff;
+	
+	position: relative;
+	top: -99px;
+
+	-webkit-transition: all ease 500ms;
+}
+
+.triangle-right-nofill {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	float: left;
+	border-width: 100px 0 100px 173.2px;
+	border-color: transparent transparent transparent transparent;
+	
+	position: relative;
+	top: 0px;
+
+	-webkit-transition: all ease 500ms;
+}
+
+
+.overlap {
+	transform: translateY(-99px);
+}
+
+.overlap2 {
+	transform: translateY(-198px);
+}
+.overlap3 {
+	transform: translateY(-297px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
