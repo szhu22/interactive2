@@ -1,0 +1,38 @@
+* {margin: 0px; padding 0px;}
+
+body {
+}
+
+#container{
+	width: 9006.4px;
+}
+
+#shapes {
+	width: 4501.2px;
+	border: 1px solid black;
+	background: red;
+	height: 40px;
+	float: left;
+}
+
+#column1{
+	float: left;
+
+	width: 86.6px;
+	height: 550px;
+
+	position:absolute;
+	top:0px;
+	left:0px;
+
+	border: 0px solid blue;
+	
+}
+
+
+
+
+
+
+
+

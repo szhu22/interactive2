@@ -8,31 +8,178 @@ body {
 	transform: scale(0.5);
 
 }
-#letterA {
+
+#column1{
 	float: left;
 
-	width: 346.4px;
-	height: 500px;
+	width: 173.2px;
+	height: 550px;
 
 	position:absolute;
-	top:400px;
+	top:1600px;
+	left:-519.6px;
+
+	border: 0px solid blue;
+}
+
+#column2{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
+	left:-346.4px;
+
+	border: 0px solid blue;
+}
+
+#column3{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
+	left:-173.2px;
+
+	border: 0px solid blue;
+}
+
+#column4{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
 	left:0px;
 
-	border: 1px solid blue;
-}	
+	border: 0px solid blue;
+}
 
-#letterB {
+#column5{
 	float: left;
 
-	width: 346.4px;
-	height: 500px;
+	width: 173.2px;
+	height: 550px;
 
 	position:absolute;
-	top:400px;
+	top:1600px;
+	left:173.2px;
+
+	border: 0px solid blue;
+}
+
+#column6{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
+	left:346.4px;
+
+	border: 0px solid blue;
+}
+#column7{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
 	left:519.6px;
 
-	border: 1px solid blue;
+	border: 0px solid blue;
 }
+
+#column8{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
+	left:692.8px;
+
+	border: 0px solid blue;
+}
+
+#column9{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
+	left:866px;
+
+	border: 0px solid blue;
+}
+
+#column10{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
+	left:1039.2px;
+
+	border: 0px solid blue;
+}
+
+#column11{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
+	left:1212.4px;
+
+	border: 0px solid blue;
+}
+
+#column12{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
+	left:1385.6px;
+
+	border: 0px solid blue;
+}
+
+#column13{
+	float: left;
+
+	width: 173.2px;
+	height: 550px;
+
+	position:absolute;
+	top:1600px;
+	left:1558.8px;
+
+	border: 0px solid blue;
+}
+
+
+
+
 
 .triangle-left {
 	width: 0;
@@ -47,29 +194,19 @@ body {
 
 	-webkit-transition: all ease 500ms;
 
-}
-
-.triangle-left-below {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 100px 173.2px 100px 0;
-	border-color: transparent #007bff transparent transparent;
-	float: left;
-
-	position: relative;
-	top: -99px;
-
-	-webkit-transition: all ease 500ms;
+	animation-name: loop;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
 
 }
+
 
 .triangle-left-nofill {
 	width: 0;
 	height: 0;
 	border-style: solid;
 	border-width: 100px 173.2px 100px 0;
-	border-color: transparent transparent transparent transparent;
+	border-color: transparent white transparent transparent;
 	float: left;
 
 	position: relative;
@@ -90,22 +227,13 @@ body {
 	position: relative;
 	top: 0px;
 
-	-webkit-transition: all ease 500ms;
+	transition: all none 500ms;
+
+	animation-name: loop;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
 }
 
-.triangle-right-below {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	float: left;
-	border-width: 100px 0 100px 173.2px;
-	border-color: transparent transparent transparent #007bff;
-	
-	position: relative;
-	top: -99px;
-
-	-webkit-transition: all ease 500ms;
-}
 
 .triangle-right-nofill {
 	width: 0;
@@ -113,34 +241,72 @@ body {
 	border-style: solid;
 	float: left;
 	border-width: 100px 0 100px 173.2px;
-	border-color: transparent transparent transparent transparent;
+	border-color: transparent transparent transparent white;
 	
 	position: relative;
 	top: 0px;
 
-	-webkit-transition: all ease 500ms;
+	transition: all none 500ms;
+}
+
+.circle {
+	border-radius: 100px;
+	transform: rotate(90deg);
+	color:#007bff;
+}
+
+.rotate {
+	
+	transform: rotate(90deg);
+	
 }
 
 
 .overlap {
-	transform: translateY(-99px);
+	transform: translateY(-100px);
 }
 
 .overlap2 {
-	transform: translateY(-198px);
+	transform: translateY(-200px);
 }
 .overlap3 {
-	transform: translateY(-297px);
+	transform: translateY(-300px);
+}
+.overlap4 {
+	transform: translateY(-400px);
 }
 
+.overlap5 {
+	transform: translateY(-500px);
+}
+.overlap6 {
+	transform: translateY(-600px);
+}
+.overlap7 {
+	transform: translateY(-700px);
+}
 
+.overlap8 {
+	transform: translateY(-800px);
+}
+.overlap9 {
+	transform: translateY(-900px);
+}
+.overlap10 {
+	transform: translateY(-1000px);
+}
 
+@keyframes loop {
+	0%{
+		margin-left: 346.4px;
+	}
+	
+	100%{
+		margin-left: -346.4px;
+		margin-right: 346.4px;
+	}
 
-
-
-
-
-
+}
 
 
 
