@@ -1326,7 +1326,9 @@ body {
 	position: relative;
 	top: 0px;
 
-	
+	animation-name: loop;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
 
 }
 
@@ -1336,7 +1338,7 @@ body {
 	height: 0;
 	border-style: solid;
 	border-width: 50px 86.6px 50px 0;
-	border-color: transparent #4a4848 transparent transparent;
+	border-color: transparent white transparent transparent;
 	float: left;
 
 	position: relative;
@@ -1358,6 +1360,9 @@ body {
 	position: relative;
 	top: 0px;
 
+	animation-name: loop;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
 
 	
 }
@@ -1369,7 +1374,7 @@ body {
 	border-style: solid;
 	float: left;
 	border-width: 50px 0 50px 86.6px;
-	border-color: transparent transparent transparent #4a4848;
+	border-color: transparent transparent transparent white;
 	
 	position: relative;
 	top: 0px;
@@ -1382,12 +1387,12 @@ body {
 .circle {
 	border-radius: 100px;
 	transform: rotate(90deg);
-	color:#007bff;
+	
 }
 
 .rotate {
 	
-	transform: rotate(90deg);
+	transform: perspective( 400px ) rotateY(180deg);
 	
 }
 
@@ -1446,32 +1451,21 @@ body {
 
 @keyframes loop {
 	0%{
-		transform: translateX(0px);
-	}
+		}
 
-	10%{
-		transform: translateX(-346.4px);
-	}
+	45%{
+		}
 
-	11%{
-		transform: translateX(-546.4px);
-	}
+	50%{
+		position: relative;
+		top: 0px;
+		transform: translateX( 400px );}
 
-	20% {
-		transform: translateX(-546.4px);
-	}
-
-	21% {
-		transform: translateX(-746.4px);
-	}
-
-	99%{
-		transform: translateX(-4503.2px);
-	}
+	55%{
+		}
 
 	100%{
-		transform: translateX(0px);
-	}
+		}
 
 }
 

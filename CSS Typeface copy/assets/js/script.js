@@ -1,8 +1,14 @@
 $(document).ready(function(){
 
-	// try uncommenting (deleting the // before a line) to see its effects
 
-	// $('.fill').addClass('shrink');	
+
+	$('.triangle-left').click(function() {
+		$('.triangle-left').addClass('loop');
+	});	
+
+	$('.triangle-right').click(function() {
+		$('.triangle-right').addClass('loop');
+	});	
 
 
 	$('#column1').click(function() {
