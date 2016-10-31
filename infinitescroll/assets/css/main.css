@@ -9,7 +9,7 @@ body {
 
 #shapes {
 	width: 4501.2px;
-	border: 1px solid black;
+	border: 1px solid;
 	background: red;
 	height: 40px;
 	float: left;

@@ -931,6 +931,16 @@ $(document).ready(function(){
 		$('#column83 .triangle-right-nofill').toggleClass('circle');
 		
 	});	
+	$('#column84').click(function() {
+		$('#column84 .triangle-left').toggleClass('circle');
+	
+		$('#column84 .triangle-right').toggleClass('circle');
+
+		$('#column84 .triangle-left-nofill').toggleClass('circle');
+	
+		$('#column84 .triangle-right-nofill').toggleClass('circle');
+		
+	});	
 
 
 	 

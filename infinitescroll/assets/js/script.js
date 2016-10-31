@@ -9,6 +9,7 @@ $(window).load( function() {
 		var scrollWindowPos = $(window).scrollLeft();
 
 		console.log(scrollWindowPos);
+		
 		if(scrollWindowPos >= canvasWidth) { 
 			$(window).scrollLeft(0);
 		}  
