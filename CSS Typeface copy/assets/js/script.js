@@ -1,13 +1,33 @@
-$(document).ready(function(){
+$(window).load(function(){
+
+	$("#container").contents().clone().appendTo("#container");
+
+
+	$(window).scroll(function(){
+		// canvasWidth = $('#container').width()/2;
+
+		var scrollWindowPos = $(window).scrollLeft();
+
+		console.log(scrollWindowPos);
+		
+		if(scrollWindowPos >= 5980) { 
+			$(window).scrollLeft(0);
+		}  
+
+		if(scrollWindowPos <= 0 ) {
+			$(window).scrollLeft(6670);
+		}       
+
+	})
 
 
 
-	$('.triangle-left').click(function() {
-		$('.triangle-left').addClass('loop');
+	$('.triangle-left-nofill').dblclick(function() {
+		$('.triangle-left-nofill').addClass('.rotate');
 	});	
 
-	$('.triangle-right').click(function() {
-		$('.triangle-right').addClass('loop');
+	$('.triangle-right-nofill').dblclick(function() {
+		$('.triangle-right-nofill').addClass('.rotate');
 	});	
 
 
@@ -255,19 +275,21 @@ $(document).ready(function(){
 
 		$('#column22 .triangle-left-nofill').toggleClass('circle');
 	
-		$('#column .triangle-right-nofill').toggleClass('circle');
+		$('#column22 .triangle-right-nofill').toggleClass('circle');
 		
 	});	
+
 	$('#column23').click(function() {
-		$('#column23.triangle-left').toggleClass('circle');
+		$('#column23 .triangle-left').toggleClass('circle');
 	
 		$('#column23 .triangle-right').toggleClass('circle');
 
 		$('#column23 .triangle-left-nofill').toggleClass('circle');
 	
-		$('#column23.triangle-right-nofill').toggleClass('circle');
+		$('#column23 .triangle-right-nofill').toggleClass('circle');
 		
 	});	
+	
 	$('#column24').click(function() {
 		$('#column24.triangle-left').toggleClass('circle');
 	
@@ -417,7 +439,7 @@ $(document).ready(function(){
 
 		$('#column38 .triangle-left-nofill').toggleClass('circle');
 	
-		$('#column .triangle-right-nofill').toggleClass('circle');
+		$('#column38 .triangle-right-nofill').toggleClass('circle');
 		
 	});	
 
@@ -861,17 +883,7 @@ $(document).ready(function(){
 		
 	});	
 
-	$('#column79').click(function() {
-		$('#column79 .triangle-left').toggleClass('circle');
 	
-		$('#column79 .triangle-right').toggleClass('circle');
-
-		$('#column79 .triangle-left-nofill').toggleClass('circle');
-	
-		$('#column79 .triangle-right-nofill').toggleClass('circle');
-		
-	});	
-
 	$('#column79').click(function() {
 		$('#column79 .triangle-left').toggleClass('circle');
 	
@@ -894,16 +906,7 @@ $(document).ready(function(){
 		
 	});	
 
-	$('#column80').click(function() {
-		$('#column80 .triangle-left').toggleClass('circle');
 	
-		$('#column80 .triangle-right').toggleClass('circle');
-
-		$('#column80 .triangle-left-nofill').toggleClass('circle');
-	
-		$('#column80 .triangle-right-nofill').toggleClass('circle');
-		
-	});	
 
 	$('#column81').click(function() {
 		$('#column81 .triangle-left').toggleClass('circle');
@@ -948,12 +951,56 @@ $(document).ready(function(){
 		
 	});	
 
-
-	 
-
+	$('#column85').click(function() {
+		$('#column85 .triangle-left').toggleClass('circle');
 	
+		$('#column85 .triangle-right').toggleClass('circle');
+
+		$('#column85 .triangle-left-nofill').toggleClass('circle');
+	
+		$('#column85 .triangle-right-nofill').toggleClass('circle');
+		
+	});	
+
+	$('#column86').click(function() {
+		$('#column86 .triangle-left').toggleClass('circle');
+	
+		$('#column86 .triangle-right').toggleClass('circle');
+
+		$('#column86 .triangle-left-nofill').toggleClass('circle');
+	
+		$('#column86 .triangle-right-nofill').toggleClass('circle');
+		
+	});	
+
+	$('#column87').click(function() {
+		$('#column87 .triangle-left').toggleClass('circle');
+	
+		$('#column87 .triangle-right').toggleClass('circle');
+
+		$('#column87 .triangle-left-nofill').toggleClass('circle');
+	
+		$('#column87 .triangle-right-nofill').toggleClass('circle');
+		
+	});	
+
+	$('#column88').click(function() {
+		$('#column88 .triangle-left').toggleClass('circle');
+	
+		$('#column88 .triangle-right').toggleClass('circle');
+
+		$('#column88 .triangle-left-nofill').toggleClass('circle');
+	
+		$('#column88 .triangle-right-nofill').toggleClass('circle');
+		
+	});
+
+
+
 
 });
+
+
 
 // $(window).load( function() {   
 

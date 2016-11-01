@@ -9,6 +9,28 @@ body {
 
 }
 
+#container{ 
+	width: 14620px;
+    
+}
+
+/*.canvas{width: 10006.4px;}*/
+
+
+#shapes{
+    
+	width: 7310px;
+	border: 1px solid;
+	/*background: red;*/
+	height: 40px;
+	float: left;
+
+	/*animation-name: loop;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;*/
+
+}
+
 #column1{
 	float: left;
 
@@ -1267,102 +1289,32 @@ body {
 	
 }
 
-
-
-#container{ 
-	width: 7137.8px;
-    /*height: 100vh;
-    overflow: auto;
-    position: relative;
-    background: blue;*/
-}
-
-/*.canvas{width: 10006.4px;}*/
-
-
-#shapes{
-    
-	width: 7137.8px;
-	border: 1px solid;
-	/*background: red;*/
-	height: 40px;
+#column85{
 	float: left;
 
-	/*animation-name: loop;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;*/
+	width: 86.6px;
+	height: 550px;
 
-}
+	position:absolute;
+	top:-50px;
+	left:7224.4px;
 
-
-/*#shapes2{
-	width: 4503.2px;
-	background: red;
-	position: absolute;
-	left: 4503.2px;
-	height: 30px;
-	display: inline-block;	
-
-	animation-name: loop;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-
-
-}*/
-
-
-
-
-
-
-.triangle-left {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 50px 86.6px 50px 0;
-	border-color: transparent #ffeb00 transparent transparent;
-	float: left;
-
-	position: relative;
-	top: 0px;
-
-	animation-name: loop;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-
-}
-
-
-.triangle-left-nofill {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 50px 86.6px 50px 0;
-	border-color: transparent white transparent transparent;
-	float: left;
-
-	position: relative;
-	top: 0px;
-
+	border: 0px solid blue;
 
 	
-
 }
 
-.triangle-right {
-	width: 0;
-	height: 0;
-	border-style: solid;
+#column86{
 	float: left;
-	border-width: 50px 0 50px 86.6px;
-	border-color: transparent transparent transparent #ffeb00;
-	
-	position: relative;
-	top: 0px;
 
-	animation-name: loop;
-	animation-duration: 5s;
-	animation-iteration-count: infinite;
+	width: 86.6px;
+	height: 550px;
+
+	position:absolute;
+	top:-50px;
+	left:7310px;
+
+	border: 0px solid blue;
 
 	
 }
@@ -1384,8 +1336,87 @@ body {
 	
 }
 
+.triangle-left-nofill {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 86.6px 50px 0;
+	border-color: transparent white transparent transparent;
+	float: left;
+
+	position: relative;
+	top: 0px;
+
+
+	
+
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 86.6px 50px 0;
+	border-color: transparent #ffeb00 transparent transparent;
+	float: left;
+
+	position: relative;
+	top: 0px;
+
+	animation-delay: 2s;
+	animation-name: lopo;
+	animation-duration: 6s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	
+
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	float: left;
+	border-width: 50px 0 50px 86.6px;
+	border-color: transparent transparent transparent #ffeb00;
+	
+	position: relative;
+	top: 0px;
+
+	animation-delay: 2s;
+	animation-name: loop;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	
+}
+.triangle-bottomleft {
+	width: 0;
+	height: 0;
+	float: left;
+	border-bottom: 50px solid white;
+	border-right: 86.6px solid transparent;
+	
+	position: absolute;
+	top: 850px;
+}
+
+.triangle-bottomright {
+	width: 0;
+	height: 0;
+	float: left;
+	border-bottom: 50px solid white;
+	border-left: 86.6px solid transparent;
+
+	position: absolute;
+	top: 850px;
+}
+
+
+
+
+
 .circle {
-	border-radius: 100px;
+	border-radius: 150px;
 	transform: rotate(90deg);
 	
 }
@@ -1449,22 +1480,60 @@ body {
 	transform: translateY(-800px);
 }
 
+
+
+
 @keyframes loop {
 	0%{
 		}
-
-	45%{
+	40%{
+		
 		}
 
 	50%{
 		position: relative;
 		top: 0px;
-		transform: translateX( 400px );}
+		border-color: transparent transparent transparent #a29602 ;
+		cursor: pointer;
+		 
+		transition: background-color 2s ease-out;
+		transform: scale(0.6) translateX(400px)}
 
-	55%{
+	60%{
+		
 		}
 
 	100%{
+		
+		}
+
+}
+
+@keyframes lopo {
+	0%{
+		}
+	40%{
+		
+		}
+
+	50%{
+		position: relative;
+		top: 0px;
+
+		 border-color: transparent #f91392 transparent transparent ;
+		 cursor: pointer;
+		 
+		 transition: background-color 2s ease-out;
+
+
+		transform: scale(0.6) translateX(400px) translateY(-550px)}
+
+	60%{
+		
+		}
+
+	100%{
+		
 		}
 
 }
