@@ -37,19 +37,19 @@ $(document).ready(function(){
 	
 		}
 
-		if (b5 > 0 && b4 > 0 && b3 == 0 && b2 > 0 && b1 > 0) { 
+		if (b5 > 0 && b4 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,4,5.html";
 		}
-		if (b5 > 0 && b4 == 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
+		if (b5 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,3,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 > 0 && b1 == 0) { 
+		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 > 0) { 
 			
 			window.location.href = "link2,3,4,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 == 0 && b1 > 0) { 
+		if (b5 > 0 && b4 > 0 && b3 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,3,4,5.html";
 		}
@@ -74,19 +74,19 @@ $(document).ready(function(){
 	
 		}
 
-		if (b5 == 0 && b4 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
+		if (b4 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,3,4.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 == 0 && b2 > 0 && b1 > 0) { 
+		if (b5 > 0 && b4 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,4,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 > 0 && b1 == 0) { 
+		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 > 0) { 
 			
 			window.location.href = "link2,3,4,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 == 0 && b1 > 0) { 
+		if (b5 > 0 && b4 > 0 && b3 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,3,4,5.html";
 		}
@@ -111,19 +111,19 @@ $(document).ready(function(){
 	
 		}
 
-		if (b5 == 0 && b4 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
+		if (b4 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,3,4.html";
 		}
-		if (b5 > 0 && b4 == 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
+		if (b5 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,3,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 > 0 && b1 == 0) { 
+		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 > 0) { 
 			
 			window.location.href = "link2,3,4,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 == 0 && b1 > 0) { 
+		if (b5 > 0 && b4 > 0 && b3 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,3,4,5.html";
 		}
@@ -149,19 +149,19 @@ $(document).ready(function(){
 	
 		}
 
-		if (b5 == 0 && b4 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
+		if (b4 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,3,4.html";
 		}
-		if (b5 > 0 && b4 == 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
+		if (b5 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,3,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 == 0 && b2 > 0 && b1 > 0) { 
+		if (b5 > 0 && b4 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,4,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 > 0 && b1 == 0) { 
+		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 > 0 ) { 
 			
 			window.location.href = "link2,3,4,5.html";
 		}
@@ -253,19 +253,19 @@ $(document).ready(function(){
 
 
 
-		if (b5 == 0 && b4 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
+		if (b4 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,3,4.html";
 		}
-		if (b5 > 0 && b4 == 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
+		if (b5 > 0 && b3 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,3,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 == 0 && b2 > 0 && b1 > 0) { 
+		if (b5 > 0 && b4 > 0 && b2 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,2,4,5.html";
 		}
-		if (b5 > 0 && b4 > 0 && b3 > 0 && b2 == 0 && b1 > 0) { 
+		if (b5 > 0 && b4 > 0 && b3 > 0 && b1 > 0) { 
 			
 			window.location.href = "link1,3,4,5.html";
 		}
