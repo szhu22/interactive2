@@ -19,7 +19,10 @@ a {
 }*/
 
 #paragraphs {
-   
+    font-family: 'Exo', sans-serif;
+    font-weight:lighter;
+    font-size:10pt;
+    line-height: 15pt;
 	position:absolute;
 	top:150px; 
 	left:150px;
@@ -34,43 +37,12 @@ a {
 	-webkit-transition: all 0.5s ease-in-out;
 	
 }
-@font-face {
-    font-family: 'My Custom Font';
-    src: url('img/ACaslonPro-Semibold.otf') format("truetype");
-}
 .cardtitle {
-    font-family: "My Custom Font";
-    font-weight:700;
+    font-family: 'Exo', sans-serif;
+    font-weight:800;
     font-size: 22px;	
 }
 
-#card1 {
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    position:absolute;
-    top: 0px;
-	left:0px;
-	-webkit-transition: all 0.5s ease-in-out;	
-}
-#card2 {
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    position:absolute;
-    top: 0px;
-	left:365px;
-	-webkit-transition: all 0.5s ease-in-out;	
-}
-#card3 {
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    position:absolute;
-    top: 0px;
-	left:730px;
-	-webkit-transition: all 0.5s ease-in-out;	
-}
 #second-p {
     width: 200px;
     position:absolute;
@@ -89,13 +61,17 @@ a {
 	position:fixed;
 	top:180px; 
 	left:150px;
+	font-family: 'Exo', sans-serif;
+    font-weight:lighter;
+    font-size:10pt;
+    line-height: 16pt;
 	
 }
 #logo-fixed{
 	position: fixed;
 	top:50px; 
 	left:150px;
-	transform: scale(0.25);
+	transform: scale(0.3);
 	transform-origin: top left;	
 }
 #imgright {
@@ -188,43 +164,44 @@ a {
 	z-index: 2;
 }
 #dot1 {
-	width: 14px;
-	height: 14px;
+	width: 20px;
+	height: 20px;
 	background: #ec008c;
-	border-radius: 7px;
+	border-radius: 10px;
 	position: absolute;
 	top:60px; 
-	left:1040px;
+	left:1000px;
 	z-index: 3;
 }
 #dot2 {
-	width: 14px;
-	height: 14px;
+	width: 20px;
+	height: 20px;
 	background: #00aeef;
-	border-radius: 7px;
+	border-radius: 10px;
 	position: absolute;
 	top:90px; 
-	left:1040px;
+	left:1000px;
 	z-index: 3;
 }
 .recommended {
 	position: absolute;
-	top:56px;
-	left: 1060px;
+	top:54px;
+	left: 1030px;
 	color: white;
-	font-family:"My Custom Font";
-	font-weight: normal;
-	font-size: 16px;
+	font-family: 'Exo', sans-serif;
+    font-weight:lighter;
+    font-size:16pt;
 	z-index: 3;
 }
 
 .connectabledots {
 	position: absolute;
-	top:86px;
-	left: 1060px;
+	top:84px;
+	left: 1030px;
 	color: white;
-	font-family:"My Custom Font";
-	font-size: 16px;
+	font-family: 'Exo', sans-serif;
+    font-weight:lighter;
+    font-size:16pt;
 	z-index: 3;
 
 	-webkit-transition: all 500ms ease-in-out;	
@@ -234,13 +211,16 @@ a {
 
 .connectabledots .dots-text { 
 	position: absolute;
-	top: 10px;
-	width: 150px;
-	margin-left: -115px;
+	top: 15px;
+	width: 230px;
+	margin-left: -170px;
 	color: #00aeef;
 	font-size: 15px;
 	padding: 10px;
-	font-family: "helvetica";
+	font-family: 'Exo', sans-serif;
+    font-weight:lighter;
+    font-size:12pt;
+    line-height: 18pt;
 	opacity: 0;
 	text-align: left;
 	z-index: 3;
@@ -418,7 +398,7 @@ a {
 	position: absolute;
 	top:50px; 
 	left:150px;
-	transform: scale(0.25);
+	transform: scale(0.3);
 	transform-origin: top left;	
 }
 
